@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Airbnb;
-    src: url(../../assets/loginFonT/AirbnbCereal_W_Bd.otf);
+    font-family: 'Airbnb';
+    src: url(/loginFont/AirbnbCereal_W_Bd.otf);
 }
 .loginBx {
     min-height: calc(100vh - 92px);
