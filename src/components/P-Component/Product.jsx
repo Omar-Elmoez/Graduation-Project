@@ -26,7 +26,7 @@ export default function Product(props) {
         <div className='card'>
             {icon}
             <NavLink to={`/ProductInfo/${props.id}`}>
-                <img src={`../../src/assets/ProductsImgs/${props.img}`} alt='clothes' className='card__img'/>
+                <img src={`/ProductsImgs/${props.img}`} alt='clothes' className='card__img'/>
                 <div className='card__textBx'>
                     <div className='card__info'>
                         <span className='card__info_name'>{props.name}</span>
