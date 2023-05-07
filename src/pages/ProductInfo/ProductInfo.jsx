@@ -24,7 +24,7 @@ export default function ProductInfo() {
             <Header />
             <div className='product'>
                 <div className='product__imgBx'>
-                    <img src={`../../src/assets/ProductsImgs/${clickedCard.img}`} />
+                    <img src={`/ProductsImgs/${clickedCard.img}`} />
                 </div>
                 <div className='product__txtBx'>
                     <div className='product__txtBx_content'>
