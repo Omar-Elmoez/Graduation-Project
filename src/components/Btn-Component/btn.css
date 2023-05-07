@@ -1,0 +1,23 @@
+.home__linkBx,
+.productInfo__linkBx {
+    font-size: 1.25rem;
+    color: #F61B5A;
+    text-align: center;
+    background-color: white;
+    width: 168px;
+    border-radius: 100px;
+}
+
+.home__linkBx {
+    margin: 0 auto 1em;
+}
+.productInfo__linkBx {
+    margin: 1.5em auto 0;
+    font-weight: bold;
+}
+
+.home__linkBx a,
+.productInfo__linkBx a {
+    display: block;
+    padding: 10px;
+}
