@@ -17,6 +17,8 @@ export default function ProductInfo() {
     });
 
     const myObj = useParams();
+    // We add (-1) because we start our ids in data file from 1 .
+    // and when pass the id in the url and use it again like this => it starts from (0) as default.
     const clickedCard = ProductsData[myObj.id - 1];
 
     return (
