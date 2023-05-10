@@ -12,5 +12,5 @@
 - Mark your favorite shirts with our __Heart__ icon.  
 - See product details by clicking it.
 #### Visit Our Store => [Click Here](https://graduation-project-tau.vercel.app/)
-##### Figma Design For The Store => [Store Design](https://www.figma.com/file/0VOhpJhl8voA8SIKA0Zp73/Minimal-Shopping-web-application?type=design&node-id=0-1&t=9Uge4iwO3LOiOpPb-0)
+##### Figma Design For The Store => [Store Design](https://www.figma.com/file/mHrp8BCiiXISJ3v5L44Hr7/Minimal-Shopping-web-application-(Copy)?type=design&node-id=0-1&t=KEIl5DzCDg8OEgPH-0)
 
