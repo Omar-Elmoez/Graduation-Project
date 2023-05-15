@@ -3,14 +3,6 @@
     position: relative;
     cursor: pointer;
 }
-.card__icon {
-    position: absolute;
-    right: 0;
-    font-size: 25px;
-}
-.card__favoriteIcon {
-    color: #FF1055;
-}
 .card__info {
     display: flex;
     justify-content: space-between;

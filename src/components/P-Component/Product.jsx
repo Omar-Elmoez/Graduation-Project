@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 /* eslint-disable react/prop-types */
 import { VscHeartFilled } from 'react-icons/vsc';
-import { CiHeart } from 'react-icons/ci';
 import './Product.css';
 
 
@@ -19,12 +18,17 @@ export default function Product(props) {
             }
         })
     }
-
-    let icon = chosenProduct.isFavorite ? <VscHeartFilled className='card__icon card__favoriteIcon' onClick={handleClick} /> : <CiHeart className='card__icon' onClick={handleClick} />;
+// Apply Dynamic Style
+    const iconStyle = {
+        position: 'absolute',
+        right: '0',
+        fontSize: '25px',
+        color: chosenProduct.isFavorite ? '#FF1055' : '#ccc'
+    }
 
     return (
         <div className='card'>
-            {icon}
+            <VscHeartFilled style={iconStyle} onClick={handleClick} />
             <NavLink to={`/ProductInfo/${props.id}`}>
                 <img src={`/ProductsImgs/${props.img}`} alt='clothes' className='card__img'/>
                 <div className='card__textBx'>
