@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@500&family=Urbanist:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: 'Airbnb';
+    src: url(/loginFont/AirbnbCereal_W_Bd.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
