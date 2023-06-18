@@ -5,7 +5,7 @@ import logo from '../../assets/logoImg.png';
 export default function Header() {
     return (
         <header className="bg-white shadow-C2">
-            <div className="container flex justify-between items-center py-5">
+            <div className="w-[95%] m-auto flex justify-between items-center py-5">
                 <NavLink to='/'>
                     <div className="flex justify-center items-center gap-2.5">
                         <img src={logo} alt='shopping bag' className='mx-480:w-7.5' />

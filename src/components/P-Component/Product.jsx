@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 /* eslint-disable react/prop-types */
 import { VscHeartFilled } from 'react-icons/vsc';
-import './Product.css';
+
 
 
 
@@ -18,25 +18,18 @@ export default function Product(props) {
             }
         })
     }
-// Apply Dynamic Style
-    const iconStyle = {
-        position: 'absolute',
-        right: '0',
-        fontSize: '25px',
-        color: chosenProduct.isFavorite ? '#FF1055' : '#ccc'
-    }
 
     return (
-        <div className='card'>
-            <VscHeartFilled style={iconStyle} onClick={handleClick} />
+        <div className='w-[250px] relative cursor-pointer'>
+            <VscHeartFilled className={`absolute right-0 text-2xl ${chosenProduct.isFavorite ? "text-redPink" : "text-Ghost"}`} onClick={handleClick} />
             <NavLink to={`/ProductInfo/${props.id}`}>
-                <img src={`/ProductsImgs/${props.img}`} alt='clothes' className='card__img'/>
-                <div className='card__textBx'>
-                    <div className='card__info'>
-                        <span className='card__info_name'>{props.name}</span>
-                        <span className='card__info_price'>{props.price}$</span>
+                <img src={`/ProductsImgs/${props.img}`} alt='clothes' className='min-w-[230px] rounded-3xl'/>
+                <div className='mt-[13px]'>
+                    <div className='flex justify-between items-center text-almostBlack'>
+                        <span className='text-base'>{props.name}</span>
+                        <span className='text-xl text-darkOrange'>{props.price}$</span>
                     </div>
-                    <p className='card__desc'>{props.description}</p>
+                    <p className='text-sm text-halfBlack leading-5 mt-[0.7em]'>{props.description}</p>
                 </div>
             </NavLink>
         </div>

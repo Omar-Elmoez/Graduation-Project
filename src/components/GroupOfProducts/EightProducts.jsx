@@ -13,9 +13,9 @@ export default function EightProducts() {
     }
 
     return (
-        <section className="products">
-            <h2 className="products__heading">Products</h2>
-            <div className="products_container container">
+        <section className="py-[30px]">
+            <h2 className="font-medium text-[2.5rem] text-almostBlack text-center">Products</h2>
+            <div className="flex justify-center flex-wrap gap-5 w-[95%] mx-auto mt-[35px] max-w-[1400px]">
                 {myProducts}
             </div>
         </section>

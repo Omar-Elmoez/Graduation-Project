@@ -16,6 +16,7 @@ export default {
       },
       width: {
         '7.5': '1.875rem',
+        '42': '10.5rem',
         '175': '43.75rem',
       },
       colors: {
@@ -25,6 +26,17 @@ export default {
         'PaleSky': '#707B81',
         'Zeus': '#212121',
         'orangePeel': '#F89300',
+        'darkGray': '#333333',
+        'oldGold': '#D4AF37',
+        'fadedBlue': '#6B9AC4',
+        'Rose': '#e7b1a3',
+        'Wheat': '#f5deb3',
+        'hipBlue': '#5f9ea0',
+        'Ghost': '#cccccc',
+        'redPink': '#FF1055',
+        'almostBlack': 'rgba(0, 0, 0, 0.749)',
+        'halfBlack': 'rgba(0, 0, 0, 0.5)',
+        'almostWhite': 'rgba(0, 0, 0, 0.055)',
       },
       fontFamily: {
         'Airbnb': "Airbnb",
